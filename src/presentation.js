@@ -70,7 +70,7 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
-            To build a React app, you need:
+            To build a React app, you will need:
           </Heading>
           <List>
             <ListItem>react</ListItem>
@@ -82,7 +82,7 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
-            For testing you add:
+            For testing you can add:
           </Heading>
           <List>
             <ListItem>jest</ListItem>
@@ -93,7 +93,7 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
-            For dev experience you want:
+            For dev experience you will want:
           </Heading>
           <List>
             <ListItem>react-dev-utils</ListItem>
@@ -106,7 +106,7 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
-            Some utilities FTW:
+            Don't forget:
           </Heading>
           <List>
             <ListItem>autoprefixer</ListItem>
