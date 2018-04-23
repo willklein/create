@@ -15,8 +15,6 @@ import {
   Text,
 } from 'spectacle';
 
-import CodeSlide from 'spectacle-code-slide';
-
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
 
@@ -161,8 +159,6 @@ export default class Presentation extends React.Component {
           </Heading>
         </Slide>
 
-
-
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
           <Image src="facepalm2.jpg" />
         </Slide>
@@ -180,32 +176,107 @@ export default class Presentation extends React.Component {
           </Heading>
         </Slide>
 
+        <Slide transition={['fade']} bgColor="tertiary">
+          <Heading size={3} textColor="primary">
+            What can we customize?
+          </Heading>
+        </Slide>
+
+        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+          <Heading size={4}>
+            <a href="https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#installing-a-dependency">
+              Installing a Dependency
+            </a>
+          </Heading>
+        </Slide>
+
+        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+          <Heading size={4}>
+            <a href="https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#formatting-code-automatically">
+              Formatting Code with Prettier
+            </a>
+          </Heading>
+        </Slide>
+
+        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+          <Heading size={4}>
+            <a href="https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#heroku">
+              Deploys
+              </a>
+          </Heading>
+        </Slide>
+
+        <Slide transition={['fade']} bgColor="tertiary">
+          <Heading size={3} textColor="primary">
+            Why would we eject?
+          </Heading>
+        </Slide>
+
+        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+          <Heading size={4}>
+            <a href="https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#can-i-use-decorators">
+              Adopting Newer Syntax
+            </a>
+          </Heading>
+        </Slide>
+
+        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+          <Heading size={4}>
+            <a href="https://github.com/FormidableLabs/spectacle/issues/512">
+              Dependency Woes
+            </a>
+          </Heading>
+        </Slide>
+
+        <Slide transition={['fade']} bgColor="tertiary">
+          <Heading size={5} textColor="primary">
+            Additive changes: MAYBE OK!
+          </Heading>
+
+          <br />
+
+          <Heading size={5} textColor="primary">
+            Changing internals: OH NO!
+          </Heading>
+        </Slide>
+
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
             Tools you'll still want to add:
           </Heading>
           <List>
             <ListItem>cypress</ListItem>
-            <ListItem>glamor</ListItem>
+            <ListItem>glamor(ous) or styled-components</ListItem>
             <ListItem>moment</ListItem>
             <ListItem>redux</ListItem>
           </List>
+        </Slide>
+
+        <Slide transition={['fade']} bgColor="tertiary">
+          <Heading size={3} textColor="primary">
+            CRA is the New Boilerplate
+          </Heading>
+        </Slide>
+
+        <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+          <a href="https://auth0.com/blog/how-to-configure-create-react-app/">
+            <Image src="auth0.png" />
+          </a>
         </Slide>
 
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
           <Image src="dance.gif" />
         </Slide>
 
-
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
           <Heading size={2} textColor="primary">
           &nbsp;
           </Heading>
-          <Heading size={6} textColor="primary">
+          <Heading size={6} textColor="tertiary">
             @willslab
           </Heading>
           <br />
-          <Heading size={6} textColor="primary">
+          <Heading size={6} textColor="tertiary">
             http://willklein.co
           </Heading>
         </Slide>
@@ -214,11 +285,11 @@ export default class Presentation extends React.Component {
           <Heading size={2} textColor="primary">
             Thanks!
           </Heading>
-          <Heading size={6} textColor="primary">
+          <Heading size={6} textColor="secondary">
             @willslab
           </Heading>
           <br />
-          <Heading size={6} textColor="primary">
+          <Heading size={6} textColor="secondary">
             http://willklein.co
           </Heading>
         </Slide>
