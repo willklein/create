@@ -15,6 +15,8 @@ import {
   Text,
 } from 'spectacle';
 
+import CodeSlide from 'spectacle-code-slide';
+
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
 
@@ -120,6 +122,9 @@ export default class Presentation extends React.Component {
             <ListItem>whatwg-fetch</ListItem>
           </List>
         </Slide>
+        <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+          <Image src="facepalm.jpg" />
+        </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
             To load resources with webpack you'll need:
@@ -145,18 +150,27 @@ export default class Presentation extends React.Component {
             <ListItem>webpack-manifest-plugin</ListItem>
           </List>
         </Slide>
+
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
-          <Image src="facepalm.jpg" />
+          <Image src="double-facepalm.jpg" />
         </Slide>
+
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={4}>
-            Code placeholder: webpack config
+            Webpack configs...
           </Heading>
         </Slide>
+
+
+
+        <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+          <Image src="facepalm2.jpg" />
+        </Slide>
+
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
           <BlockQuote>
             <Quote>And if you gaze long into an abyss, the abyss also gazes into you.</Quote>
-            <Cite>Friedrich Nietzsche, or some React developer</Cite>
+            <Cite>Friedrich Nietzsche, or any JavaScript developer</Cite>
           </BlockQuote>
         </Slide>
 
